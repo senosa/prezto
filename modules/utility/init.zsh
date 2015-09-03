@@ -144,7 +144,7 @@ alias df='df -kh'
 alias du='du -kh'
 
 if (( $+commands[htop] )); then
-  alias top=htop
+  alias top='sudo htop'
 else
   if [[ "$OSTYPE" == (darwin*|*bsd*) ]]; then
     alias topc='top -o cpu'
