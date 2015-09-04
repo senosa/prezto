@@ -32,8 +32,10 @@ function peco-src() {
   if [ -n "$selected_dir" ]; then
     BUFFER="cd ${selected_dir}"
     zle accept-line
+    zle clear-screen
+  else
+    zle redisplay
   fi
-  zle clear-screen
 }
 zle -N peco-src
 bindkey '^s' peco-src
