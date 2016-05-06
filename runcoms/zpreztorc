@@ -38,6 +38,7 @@ zstyle ':prezto:load' pmodule \
   'tmux' \
   'homebrew' \
   'syntax-highlighting' \
+  'history-substring-search' \
   'prompt'
 
 #
