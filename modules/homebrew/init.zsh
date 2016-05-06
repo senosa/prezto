@@ -31,3 +31,5 @@ alias caski='brew cask install'
 alias caskl='brew cask list'
 alias casks='brew cask search'
 alias caskx='brew cask uninstall'
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
