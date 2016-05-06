@@ -36,7 +36,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'ruby' \
   'tmux' \
-  'Homebrew' \
+  'homebrew' \
   'prompt'
 
 #
