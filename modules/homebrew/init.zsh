@@ -33,3 +33,8 @@ alias casks='brew cask search'
 alias caskx='brew cask uninstall'
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Source github token for homebrew.
+if [[ -s "${HOME}/.dotfiles_private/homebrew_token" ]]; then
+  source "${HOME}/.dotfiles_private/homebrew_token"
+fi
