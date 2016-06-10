@@ -46,3 +46,6 @@ alias java='java -Dfile.encoding=UTF-8'
 
 # Docker
 # eval "$(docker-machine env default)"
+
+# Golang
+export GOPATH=$HOME
