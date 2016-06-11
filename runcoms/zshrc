@@ -12,6 +12,9 @@ fi
 
 # Customize to your needs...
 
+# clear rprompt
+setopt transient_rprompt
+
 # peco history
 function peco-history() {
   typeset tac
