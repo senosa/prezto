@@ -52,3 +52,6 @@ alias java='java -Dfile.encoding=UTF-8'
 
 # Golang
 export GOPATH=$HOME
+
+# LESS search highlight
+export LESS_TERMCAP_so=$'\E[01;32;03;40m'
