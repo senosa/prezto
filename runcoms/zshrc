@@ -55,3 +55,6 @@ export GOPATH=$HOME
 
 # LESS search highlight
 export LESS_TERMCAP_so=$'\E[01;32;03;40m'
+
+# -N: Nihongo, -C: color by LS_COLORS
+alias tree='tree -NC'
