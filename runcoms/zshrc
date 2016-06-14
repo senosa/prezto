@@ -47,7 +47,7 @@ bindkey '^s' peco-src
 alias javac='javac -J-Dfile.encoding=UTF-8'
 alias java='java -Dfile.encoding=UTF-8'
 
-# Docker
+# Docker Toolbox (No Docker for Mac)
 # eval "$(docker-machine env default)"
 
 # Golang
