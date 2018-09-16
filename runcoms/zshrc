@@ -62,3 +62,6 @@ alias tree='tree -NC'
 
 # disable autocorrect
 alias code='nocorrect code'
+
+# tab stop
+tabs -4
