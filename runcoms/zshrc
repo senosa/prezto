@@ -66,3 +66,8 @@ alias code='nocorrect code'
 
 # tab stop
 tabs -4
+
+# CLI improved
+# https://remysharp.com/2018/08/23/cli-improved
+alias cat='bat'
+
