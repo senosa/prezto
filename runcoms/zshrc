@@ -54,8 +54,9 @@ alias java='java -Dfile.encoding=UTF-8'
 export GOPATH=$HOME
 export GO111MODULE=on
 
-# LESS search highlight
-export LESS_TERMCAP_so=$'\E[01;32;03;40m'
+# man color prezto/modules/environment
+export LESS_TERMCAP_md=$(tput setaf 4)      # section title: blue.
+export LESS_TERMCAP_us=$(tput setaf 3)      # parameters: yellow.
 
 # -N: Nihongo, -C: color by LS_COLORS
 alias tree='tree -NC'
