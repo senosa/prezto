@@ -71,3 +71,18 @@ tabs -4
 # https://remysharp.com/2018/08/23/cli-improved
 alias cat='bat'
 
+# ls to exa, (https://the.exa.website/)
+# and fix ls aliases in prezto/modules/utility/init.zsh
+alias ls='exa --time-style=iso'
+alias l='ls -1a'          # in one column, hidden files.
+alias ll='ls -l'          # in long view.
+alias lT='ll -T'          # in long tree view.
+alias lr='ll -R'          # in long view, recursively.
+alias la='ll -a'          # in long view, hidden files.
+alias lm='la | "$PAGER"'  # in long view, hidden files through pager.
+alias lx='ll -h -s=ext'       # sorted by extension.
+alias lk='ll -h -s=size'      # sorted by size, largest last.
+alias lt='ll -h -umU -s=mod'  # sorted by modified date, most recent last.
+alias lc='lt -h -umU -s=cr'   # sorted by created(changed) date, most recent last.
+alias lu='lt -h -umU -s=acc'  # sorted by accessed date, most recent last.
+alias sl='ls'             # I often screw this up.
