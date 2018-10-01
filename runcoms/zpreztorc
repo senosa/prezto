@@ -38,7 +38,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'git' \
   'ruby' \
-  'tmux' \
   'homebrew' \
   'syntax-highlighting' \
   'history-substring-search' \
